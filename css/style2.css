@@ -1,0 +1,139 @@
+.background{
+    position: relative;
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a:visited{
+    color: white;
+}
+
+.shapka img {
+    position: absolute;
+    margin-left: 136px;
+    top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.shapka h1 {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    margin-left: 204px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.prepod h1 {
+    position: absolute;
+    font-size: 52px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 768px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.ti1 {
+    position: absolute;
+    margin-left: 59px;
+    top: 125px;
+}
+
+.ti2 {
+    position: absolute;
+    margin-left: 59px;
+    top: 439px;
+}
+
+.ti3 {
+    position: absolute;
+    margin-left: 59px;
+    top: 749px;
+}
+
+.ps1 h1 {
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 160px;
+    color: rgb(255, 255, 255);
+}
+
+.ps2 h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 458px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ps3 h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 764px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ps1 p {
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 212px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ps2 p {
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 510px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ps3 p {
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 384px;
+    top: 816px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.tyanka1 {
+    position: absolute;
+    margin-left: 1662px;
+    top: 75px;
+}
+
+.tyanka2 {
+    position: absolute;
+    margin-left: 1453px;
+    top: 75px;
+}
+
+.tyanka2 h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 32px;
+    top: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
