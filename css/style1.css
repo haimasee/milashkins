@@ -1,93 +1,85 @@
-.body {
-    margin: 0;
-    padding: 0;
-    overflow-y: hidden;
-}
-
-.background{
-    position: relative;
-    min-height: 100%;
-    min-width: 640px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.sleva {
-    position: absolute;
-    min-height: 100%;
-    min-width: 640px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.shapka img {
-    position: absolute;
-    margin-left: 30px;
-    top: 23px;
-    color: rgb(255, 255, 255);
-}
-
-.shapka h1 {
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 40px;
-    margin-left: 68px;
-    top: 137px;
-    color: rgb(255, 255, 255);
+body {
+    background-color: #008297;
+    background-size: 100%;
 }
 
 a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.section {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#shapka {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Stalinist One', cursive;
+    font-size: 32px;
+    line-height: 1.5px;
+}
+
+
+.s1 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Stalinist One', cursive;
+    font-size: 24px;
+    align-items: center;
+}
+
+
+.s2 {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.s3 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Stalinist One', cursive;
+    font-size: 24px;
+    column-gap: 50px;
+}
+
+#text h1 {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Stalinist One', cursive;
+    font-size: 42px;
+    width: 2120px;
+    word-wrap: break-word;
     color: white;
 }
 
-.glav h1 {
-    position: absolute;
-    font-size: 56px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 217px;
-    top: 108px;
-    color: rgb(255, 255, 255);
-    width: 1480px;
-    word-wrap: break-word;
-}
-
-.glav p {
-    position: absolute;
+#text p {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Stalinist One', cursive;
     font-size: 42px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 217px;
-    top: 381px;
-    color: rgb(255, 255, 255);
-    width: 1480px;
+    width: 2120px;
     word-wrap: break-word;
+    color: white;
 }
 
-.glav img {
-    position: absolute;
-    margin-left: 198px;
-    top: 658px;
+.sharaga {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
-.shapka h2 {
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
+.sharaga p {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'Stalinist One', cursive;
     font-size: 32px;
-    margin-left: 1452px;
-    top: 45px;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
-.shapka h3 {
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 32px;
-    margin-left: 1753px;
-    top: 40px;
-    color: rgb(255, 255, 255);
-}
